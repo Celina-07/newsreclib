@@ -40,10 +40,10 @@ outputs:
     ]
 
 # evaluation
-top_k_list: [5, 10]
+top_k_list: [10, 20]
 num_categ_classes: 18
 num_sent_classes: 3
-save_recs: False
+save_recs: True
 recs_fpath: "${paths.output_dir}/recommendations.json"
 
 optimizer:
